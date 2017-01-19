@@ -1,0 +1,36 @@
+{
+  "name": "phptomoment",
+  "version": "0.0.1",
+  "description": "Convert PHP date format to Moment.js format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run mocha",
+    "lint": "eslint ./**/*.js",
+    "mocha": "mocha"
+  },
+  "author": "Jason Stallings <jason@stallin.gs>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "mocha": "^3.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octalmage/phptomoment.git"
+  },
+  "keywords": [
+    "php",
+    "moment",
+    "date",
+    "time",
+    "format"
+  ],
+  "bugs": {
+    "url": "https://github.com/octalmage/phptomoment/issues"
+  },
+  "homepage": "https://github.com/octalmage/phptomoment#readme"
+}
