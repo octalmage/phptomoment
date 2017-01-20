@@ -45,7 +45,7 @@ module.exports = function convertPhpToMoment(format) {
      *  Support escaped charaters. If the previous charater was a backslach just
      *  return the charater.
      */
-    if (format.charAt(i-1) === '\\') return char;
+    if (format.charAt(i-1) === '\\') return '[' + char + ']';
     return (typeof replacements[char] !== 'undefined') ? replacements[char] : char;
   }).join('');
 };
