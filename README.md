@@ -1,6 +1,6 @@
 # phptomoment [![](https://travis-ci.org/octalmage/phptomoment.svg?branch=master)](https://travis-ci.org/octalmage/phptomoment/)
 
-Convert PHP's date format to a Moment.js compatible format.
+Convert PHP's date format to a [Moment.js](https://momentjs.com/) compatible format.
 
 ## Usage
 
