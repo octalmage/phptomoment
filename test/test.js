@@ -24,12 +24,12 @@ describe('phptomoment', function() {
       'F j, Y': 'January 20, 2017',
       'Y-m-d': '2017-01-20',
       'm/d/Y': '01/20/2017',
-      'Y/m/d \\a\\t g:i A': '2017/01/20 at 2:18 PM',
-      'g:i a \\\\ \\H\\e\\l\\l\\o': '2:18 pm \\ Hello',
+      'Y/m/d \\a\\t g:i A': '2017/01/20 at 8:18 PM',
+      'g:i a \\\\ \\H\\e\\l\\l\\o': '8:18 pm \\ Hello',
     };
 
     Object.keys(tests).map(function(obj) {
-      assert.equal(moment(testDate).format(phptomoment(obj)), tests[obj]);
+      assert.equal(moment.utc(testDate).format(phptomoment(obj)), tests[obj]);
     });
   });
 });
