@@ -1,6 +1,6 @@
 {
   "name": "phptomoment",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert PHP date format to Moment.js format.",
   "main": "index.js",
   "scripts": {
